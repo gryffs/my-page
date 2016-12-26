@@ -5,7 +5,10 @@ export default function MyComponent(props) {
   return (
     <div className="my-component">
       <h2>{ props.title }</h2>
-      <h3>This is the original boilerplate using these components:</h3>
+      <img src="/images/me.jpg" />
+      <h3>Chad M. Griffis:</h3>
+      <h3>Software Engineer</h3>
+      <h3>Things I'm interested in:</h3>
       <SampleTagListContainer />
     </div>
   );
