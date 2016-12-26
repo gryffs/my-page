@@ -1,7 +1,7 @@
 {
-  "name": "node-catapult",
+  "name": "cmgmy-page",
   "version": "1.0.0",
-  "description": "A rapid project starter for node and browserify.",
+  "description": "My personal page built with React.",
   "main": "server/index.js",
   "babel": {
     "presets": [
@@ -15,7 +15,7 @@
     "test_server": "./scripts/test_server.sh",
     "test": "./scripts/test_client.sh && ./scripts/test_server.sh"
   },
-  "author": "Gilbert <gilbertbagrza@gmail.com>",
+  "author": "Chad Griffis <cmg123@me.com>",
   "license": "MIT",
   "dependencies": {
     "axios": "^0.15.2",
@@ -42,7 +42,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/mindeavor/node-catapult"
+    "url": "https://github.com/gryffs/my-page"
   },
   "keywords": [
     "boilerplate",
@@ -50,7 +50,7 @@
     "express"
   ],
   "bugs": {
-    "url": "https://github.com/mindeavor/node-catapult/issues"
+    "url": "https://github.com/gryffs/my-page/issues"
   },
-  "homepage": "https://github.com/mindeavor/node-catapult"
+  "homepage": "https://github.com/gryffs/my-page"
 }
