@@ -22,4 +22,14 @@ describe("The Server", function() {
         expect(response.body).to.include('node')
       })
   })
+
+    it_("serves a jpg file", function * () {
+
+    yield request(app)
+      .get('/images/me.jpg')
+      .expect(200)
+      .expect(function(response) {
+        expect(response.body).to.exist
+      })
+  })
 })
